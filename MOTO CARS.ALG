@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 02/05/2023
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 //INICIO DECLARACOES DE VARIAVEIS PARA CADASTRO DE VEICULOS
    LOGIN: CARACTERE
    SENHA: INTEIRO
@@ -60,6 +60,7 @@ DT4<- "FIAT"
 ESCREVAL("10 - CONSULTA")
 ESCREVAL("20 - VENDA")
 ESCREVAL("30 - SAIR")
+LEIA(ACESSO)
 ESCREVAL("*************************************")
 ESCREVAL("MARCA DE CARROS")
 //PARTE ESCOLHA
@@ -84,8 +85,8 @@ ESCREVAL("TOYOTA: Yaris (Sedan e Hatch)")
 ESCREVAL("TOYOTA: Hilux")
 LEIA(ACESSO)
 SE ACESSO=3 ENTAO
-ESCREVAL("BMW: BMW Série 3")
-ESCREVAL("BMW: BMW Série 5")
+ESCREVAL("BMW: BMW SÃ©rie 3")
+ESCREVAL("BMW: BMW SÃ©rie 5")
 ESCREVAL("BMW: BMW X3")
 ESCREVAL("BMW: BMW X5")
 LEIA(ACESSO)
